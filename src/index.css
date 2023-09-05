@@ -1,0 +1,17 @@
+.p {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 40rem;
+    color: white;
+}
+
+  /* Target the second paragraph and align it to the left */
+  .left-aligned-paragraph {
+    text-align: left;
+    color: black;
+    margin-left: 20px;
+    padding: 0.5rem;
+  }
+  
