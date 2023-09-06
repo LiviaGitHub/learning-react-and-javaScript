@@ -3,6 +3,34 @@
     background-color: white;
     padding: 10px;
   }
+
+  .home-container {
+    background-size: 100% 100%;
+    min-height: 100vh;
+    background-color: rgb(29, 51, 75);
+  }
+
+  .content {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 200px;
+    font-size: 35px;
+    font-weight: normal;
+  }
+
+  .h4 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: normal;
+  }
   
   .p, .contact-link {
     color: rgb(0, 0, 0);
