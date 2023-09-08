@@ -1,10 +1,10 @@
-import React from 'react';
-import Home from './components/home/home.jsx'
+import React from "react";
+import Home from "./components/home/home.jsx";
 
 function App() {
   return (
     <div>
-        <Home />
+      <Home />
     </div>
   );
 }

@@ -1,28 +1,28 @@
 .button {
-    border: 1px solid #fff;
-    background: #fff;
-    color: #000;
-    cursor: pointer;
-    text-align: center;
-    width: 100px;
-    height: 25px;
-    font-size: 12px;
-    font-weight: normal;
-    text-transform: uppercase;
-  }
-  
-  .button:hover,
-  .button:active {
-    background: #fff;
-    border-color: #fff;
-  }
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
 
-  .a{
-    text-decoration: none;
-    color: #000;
-    text-align: center;
-  }
-  
-  .button:focus {
-    outline: none;
-  }
+.button:hover,
+.button:active {
+  background: #fff;
+  border-color: #fff;
+}
+
+.a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.button:focus {
+  outline: none;
+}
