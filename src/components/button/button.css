@@ -1,28 +1,25 @@
 .button {
-    font: inherit;
-    border: 1px solid #ffffff;
-    background: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 0.25rem 1rem;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
     cursor: pointer;
-    margin-bottom: 0.1rem;
-    margin-top: 0.5rem;
     text-align: center;
     width: 100px;
     height: 25px;
     font-size: 12px;
     font-weight: normal;
+    text-transform: uppercase;
   }
   
   .button:hover,
   .button:active {
-    background: #ffffff;
-    border-color: #741188;
+    background: #fff;
+    border-color: #fff;
   }
 
   .a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000;
     text-align: center;
   }
   
