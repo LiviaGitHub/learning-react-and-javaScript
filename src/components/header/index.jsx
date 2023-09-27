@@ -1,22 +1,25 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './header.css';
 
+{/* React Router has the ability to leverage declarative routing and 
+  the better user experience that React Router offers. */}
 export const Header = () => {
   return (
-      <header className='header'>
+      <nav className='header'>
         <p className='p'> portfolio </p>
-        <a href='/contact' className='contact-link'>
+        <Link to='/contact' className='header-link'>
           contact
-        </a>
-        <a href='/projects' className='contact-link'>
+        </Link>
+        <Link to='/projects' className='header-link'>
           projects
-        </a>
-        <a href='/about' className='contact-link'>
+        </Link>
+        <Link to='/about' className='header-link'>
           about
-        </a>
-        <a href='/home' className='contact-link'>
+        </Link>
+        <Link to='/home' className='header-link'>
           home
-        </a>
-      </header>
+        </Link>
+      </nav>
   );
 };
