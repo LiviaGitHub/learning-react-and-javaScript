@@ -1,12 +1,12 @@
 .button {
-  border: 1px solid #fff;
+  border: 0.0625rem solid #fff; /* 1px */
   background: #fff;
   color: #000;
   cursor: pointer;
   text-align: center;
-  width: 100px;
-  height: 25px;
-  font-size: 12px;
+  width: 6.25rem; /* 100px */
+  height: 1.5625rem; /* 25px */
+  font-size: 0.75rem; /* 12px */
   font-weight: normal;
   text-transform: uppercase;
 }

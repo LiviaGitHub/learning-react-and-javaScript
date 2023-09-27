@@ -4,9 +4,9 @@ import { Contact } from './components/contact/index.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
-  { path: "/", element: <HomePage /> },
-  { path: "/home", element: <HomePage /> },
-  { path: "/contact", element: <Contact /> },
+  { path: '/', element: <HomePage /> },
+  { path: '/home', element: <HomePage /> },
+  { path: '/contact', element: <Contact /> },
 ]);
 
 export const App = () => {

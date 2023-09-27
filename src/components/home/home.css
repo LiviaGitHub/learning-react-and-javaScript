@@ -6,12 +6,12 @@
 
 .header {
   background-color: #fff;
-  padding: 10px;
+  padding: 0.625rem; /* 10px  */
 }
 
 .content {
-  width: 600px;
-  height: 500px;
+  width: 37.5rem; /* 600px  */
+  height: 31.25rem; /* 500px  */
   margin: 0 auto;
   text-align: center;
 }
@@ -19,41 +19,41 @@
 .h1 {
   text-align: center;
   color: #fff;
-  padding-top: 200px;
-  font-size: 35px;
+  padding-top: 12.5rem; /* 200px */
+  font-size: 2.1875rem; /* 35px  */
   font-weight: normal;
 }
 
 .h4 {
   text-align: center;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.9375rem; /* 15px  */
   font-weight: normal;
 }
 
 .p,
 .contact-link {
   color: #000;
-  font-size: 14px;
+  font-size: 0.875rem; /* 14px  */
   display: inline-block;
   text-transform: uppercase;
 }
 
 .p {
   text-align: left;
-  padding-right: 10px;
+  padding-right: 0.625rem; /* 10px  */
 }
 
 .contact-link {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-left: 40px;
+  padding-top: 0.625rem; /* 10px  */
+  padding-right: 0.625rem; /* 10px  */
+  padding-left: 2.5rem; /* 40px  */
   float: right;
   text-decoration: none;
 }
 
 .contact-link:hover {
-  text-decoration: underline; /* Add underline on hover if desired */
+  text-decoration: underline;
 }
 
 .social_media {
