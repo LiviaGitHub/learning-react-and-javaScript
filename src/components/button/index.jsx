@@ -1,5 +1,5 @@
-import React from "react";
-import "./button.css";
+import React from 'react';
+import './button.css';
 
 export const Button = (props) => {
   return (
@@ -12,5 +12,3 @@ export const Button = (props) => {
     </button>
   );
 };
-
-export default Button;

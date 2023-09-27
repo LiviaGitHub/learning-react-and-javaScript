@@ -1,12 +1,22 @@
-import React from "react";
-import Home from "./components/home/home.jsx";
+import React from 'react';
+import { HomePage } from './components/home/index.jsx';
+import { Contact } from './components/contact/index.jsx';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-function App() {
+const router = createBrowserRouter([
+  { path: "/", element: <HomePage /> },
+  { path: "/home", element: <HomePage /> },
+  { path: "/contact", element: <Contact /> },
+]);
+
+export const App = () => {
   return (
-    <div>
-      <Home />
-    </div>
+    <RouterProvider router={router}>
+      <div>
+        <HomePage />
+      </div>
+    </RouterProvider>
   );
-}
+};
 
 export default App;

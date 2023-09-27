@@ -1,9 +1,8 @@
-import React from "react";
-import "./home.css";
-import stylesButton from "../button/button.css";
-import Button from "../button/button.jsx";
+import React from 'react';
+import './home.css';
+import { Button } from '../button';
 
-function Home() {
+export const HomePage = () => {
   return (
     <div className="home-container">
       <header className="header">
@@ -29,7 +28,7 @@ function Home() {
           since the 1500s, and more recently with desktop publishing software
           like Aldus PageMaker including versions of Lorem Ipsum.
         </h4>
-        <a className={stylesButton.a} href="/projects">
+        <a href="/projects">
           <Button>projects</Button>
         </a>
       </div>
@@ -46,6 +45,4 @@ function Home() {
       </div>
     </div>
   );
-}
-
-export default Home;
+};
