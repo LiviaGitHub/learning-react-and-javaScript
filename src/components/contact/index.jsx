@@ -1,10 +1,11 @@
 import React from 'react';
 import './contact.css';
+import { Header } from '../header';
 
-export const Contact = () => {
+export const ContactPage = () => {
   return (
-    <div>
-      <h1>Contact</h1>
+    <div className='home-container'>
+      <Header />
     </div>
   );
 };

@@ -1,25 +1,12 @@
 import React from 'react';
 import './home.css';
 import { Button } from '../button';
+import { Header } from '../header';
 
 export const HomePage = () => {
   return (
     <div className='home-container'>
-      <header className='header'>
-        <p className='p'> portfolio </p>
-        <a href='/contact' className='contact-link'>
-          contact
-        </a>
-        <a href='/projects' className='contact-link'>
-          projects
-        </a>
-        <a href='/about' className='contact-link'>
-          about
-        </a>
-        <a href='/home' className='contact-link'>
-          home
-        </a>
-      </header>
+      <Header />
       <div className='content'>
         <h1 className='h1'>Hi, my name is Livia Bonifácio</h1>
         <h4 className='h4'>

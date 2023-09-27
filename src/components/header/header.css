@@ -1,0 +1,36 @@
+.header {
+  background-color: #fff;
+  padding: 0.625rem; /* 10px  */
+}
+
+.content {
+  width: 37.5rem; /* 600px  */
+  height: 31.25rem; /* 500px  */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.p,
+.contact-link {
+  color: #000;
+  font-size: 0.875rem; /* 14px  */
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.p {
+  text-align: left;
+  padding-right: 0.625rem; /* 10px  */
+}
+
+.contact-link {
+  padding-top: 0.625rem; /* 10px  */
+  padding-right: 0.625rem; /* 10px  */
+  padding-left: 2.5rem; /* 40px  */
+  float: right;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
