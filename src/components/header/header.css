@@ -1,6 +1,7 @@
 .header {
   background-color: #fff;
   padding: 0.625rem; /* 10px  */
+  overflow: auto; 
 }
 
 .p,
@@ -13,7 +14,6 @@
 
 .p {
   text-align: left;
-  padding-right: 0.625rem; /* 10px  */
 }
 
 .header-link {
@@ -22,6 +22,7 @@
   padding-left: 2.5rem; /* 40px  */
   float: right;
   text-decoration: none;
+  position: relative;
 }
 
 .header-link:hover {
