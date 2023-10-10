@@ -1,21 +1,28 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your project description goes here",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "react-scripts start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    "babel-plugin-root-import": "^6.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "@jest/environment": "^29.7.0",
+    "@jest/fake-timers": "^29.7.0",
+    "@jest/types": "^29.6.3",
+    "@types/jsdom": "^20.0.0",
+    "@types/node": "*",
+    "jest-mock": "^29.7.0",
+    "jest-util": "^29.7.0",
+    "jsdom": "^20.0.0"
   },
   "browserslist": {
     "production": [
@@ -24,14 +31,26 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 Chrome version",
+      "last 1 Firefox version",
+      "last 1 Safari version"
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.0",
+    "babel-jest": "^29.7.0",
     "customize-cra": "^1.0.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jsdom": "^22.1.0",
     "react-app-rewired": "^2.2.1",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "canvas": "^2.5.0"
   }
 }
