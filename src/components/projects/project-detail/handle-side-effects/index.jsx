@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Header } from '../../../header';
-import { Button } from '../../../button';
 import classes from './login.css';
 
 export const HandleSideEffectsPage = (props) => {
@@ -75,9 +74,9 @@ export const HandleSideEffectsPage = (props) => {
           />
         </div>
         <div className={classes.actions}>
-          <Button type="submit" className={classes.btn} disabled={!formIsValid}>
+          <button type="submit" className={classes.btn} disabled={!formIsValid}>
             Login
-          </Button>
+          </button>
         </div>
       </form>
       </div>
