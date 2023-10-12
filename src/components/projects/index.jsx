@@ -28,6 +28,12 @@ export const ProjectsPage = () => {
             Handling Side Effects, Using Reducers and Using the Context API
           </a>
         </li>
+
+        <li>
+          <a href='/projects/project-detail/form-submission'>
+            Form submission and getting User imput values
+          </a>
+        </li>
       </ul>
     </div>
   );
