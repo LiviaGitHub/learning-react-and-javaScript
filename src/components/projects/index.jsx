@@ -16,21 +16,19 @@ export const ProjectsPage = () => {
       <h1>Learn Detail List</h1>
       <ul>
         <li>
-        <a href='/projects/project-detail/destructuring-arrays'>Destructuring Arrays</a>
+          <a href='/projects/project-detail/destructuring-arrays'>Destructuring Arrays</a>
         </li>
 
         <li>
-        <a href='/projects/project-detail/destructuring-objects'>Destructuring Objects</a>
+          <a href='/projects/project-detail/destructuring-objects'>Destructuring Objects</a>
         </li>
 
+        <li>
+          <a href='/projects/project-detail/handle-side-effects'>
+            Handling Side Effects, Using Reducers and Using the Context API
+          </a>
+        </li>
       </ul>
     </div>
   );
 };
-
-        // {/* {projects.map((project) => (
-        //   <li key={project.id}>
-        //     {/* Renderize links específicos para cada projeto */}
-        //     <Link to={project.link}>{project.title}</Link>
-        //   </li>
-        // ))} */}

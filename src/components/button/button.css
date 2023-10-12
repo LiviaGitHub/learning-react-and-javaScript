@@ -1,7 +1,7 @@
 .button {
-  border: 0.0625rem solid #fff; /* 1px */
-  background: #fff;
-  color: #000;
+  border: 0.0625rem solid #741188; /* 1px */
+  background: #741188;
+  color: #fff;
   cursor: pointer;
   text-align: center;
   width: 6.25rem; /* 100px */
@@ -13,13 +13,13 @@
 
 .button:hover,
 .button:active {
-  background: #fff;
-  border-color: #fff;
+  background: #741188;
+  border-color: #741188;
 }
 
 .a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   text-align: center;
 }
 

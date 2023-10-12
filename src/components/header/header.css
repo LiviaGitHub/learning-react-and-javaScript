@@ -1,12 +1,12 @@
 .header {
-  background-color: #fff;
+  background: #741188;
   padding: 0.625rem; /* 10px  */
   overflow: auto; 
 }
 
 .p,
 .header-link {
-  color: #000;
+  color: #fff;
   font-size: 0.875rem; /* 14px  */
   display: inline-block;
   text-transform: uppercase;
