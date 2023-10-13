@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Header } from '../../../header';
-import classes from './login.css';
+import classes from './index.css';
 
 export const HandleSideEffectsPage = (props) => {
 
