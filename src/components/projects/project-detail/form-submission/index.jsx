@@ -6,18 +6,8 @@ export const FormSubmissionPage = () => {
   const[enteredName, setEnteredName] = useState('');
   const[enteredNameIsValid, setEnteredNameIsValid] = useState(false);
   const[enteredNameTouched, setEnteredNameTouched] = useState(false);
-  const[formIsValid, setFormIsValid] = useState(false);
 
-  useEffect(() => { 
-    if(enteredNameIsValid){
-      setFormIsValid(true);
-      console.log('Name input is valid');
-    } else{ 
-      setFormIsValid(false);
-      console.log('Name input is invalid');
-    }
-    // dependencies array
-  }, [enteredNameIsValid]);
+  let formIsValid = false;
 
   const nameInputHandler = (event) => {
     setEnteredName(event.target.value);
@@ -30,15 +20,22 @@ export const FormSubmissionPage = () => {
     
     if(enteredName.trim() === ''){
       setEnteredNameIsValid(false);
-      return;
     }
 
     setEnteredNameIsValid(true);
 
-    console.log(enteredName);
-
     setEnteredName('');
   };
+
+  if(enteredNameIsValid){
+    formIsValid(true);
+  }
+  //   } else{ 
+  //     setFormIsValid(false);
+  //     console.log('Name input is invalid');
+  //   }
+  //   // dependencies array
+  // }, [enteredNameIsValid]);
 
   const nameImputIsInvalid = !enteredNameIsValid && enteredNameTouched;
 
