@@ -6,11 +6,17 @@ export const FormSubmissionPage = () => {
   const[enteredName, setEnteredName] = useState('');
   const[enteredNameIsValid, setEnteredNameIsValid] = useState(false);
   const[enteredNameTouched, setEnteredNameTouched] = useState(false);
+  const[formIsValid, setFormIsValid] = useState(false);
 
   useEffect(() => { 
     if(enteredNameIsValid){
+      setFormIsValid(true);
       console.log('Name input is valid');
-    } 
+    } else{ 
+      setFormIsValid(false);
+      console.log('Name input is invalid');
+    }
+    // dependencies array
   }, [enteredNameIsValid]);
 
   const nameInputHandler = (event) => {
@@ -49,9 +55,10 @@ export const FormSubmissionPage = () => {
             type='text' 
             id='name' 
             onChange={nameInputHandler}  
+            onBlur={() => setEnteredNameTouched(true)}
             value={enteredName}/>
             {nameImputIsInvalid && <p> Name must not be empty. </p>}
-          <button> Submit </button>
+          <button disabled={!formIsValid}> Submit </button>
         </div>
       </form>
     </div>
