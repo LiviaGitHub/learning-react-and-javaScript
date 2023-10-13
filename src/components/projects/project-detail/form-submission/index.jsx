@@ -36,6 +36,11 @@ export const FormSubmissionPage = () => {
     }
   };
 
+  function isEmailValid(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
+
   const nameInputClasses = enteredNameIsValid ? 'form-control' : 'form-control invalid';
   const nameInputIsInvalid = !enteredNameIsValid && enteredNameTouched;
 
@@ -68,6 +73,7 @@ export const FormSubmissionPage = () => {
             value={enteredEmail}
           />
           {emailInputIsInvalid && <p>Email must not be empty.</p>}
+          {!emailInputIsInvalid && !isEmailValid(enteredEmail) && <p>Email must be valid.</p>}
         </div>
         <br />
         <button disabled={!enteredNameIsValid || !enteredEmailIsValid}>Submit</button>
