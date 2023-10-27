@@ -34,6 +34,11 @@ export const ProjectsPage = () => {
             Form submission and getting User imput values
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/hooks'>
+            Re-Using The Custom Hook
+          </a>
+        </li>
       </ul>
     </div>
   );

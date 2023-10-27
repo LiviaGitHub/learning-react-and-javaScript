@@ -6,6 +6,7 @@ import { DestructuringArraysPage } from './components/projects/project-detail/de
 import { DestructuringObjectsPage } from './components/projects/project-detail/destructuring-objects/index.jsx';
 import { HandleSideEffectsPage } from './components/projects/project-detail/handle-side-effects/index.jsx';
 import { FormSubmissionPage } from './components/projects/project-detail/form-submission/index.jsx';
+import { BasicFormPage } from './components/projects/project-detail/hooks/basic-form.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './components/error/ErrorBoundary.js';
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
   { path: '/projects/project-detail/destructuring-objects', element: <DestructuringObjectsPage /> },
   { path: '/projects/project-detail/handle-side-effects', element: <HandleSideEffectsPage /> },
   { path: '/projects/project-detail/form-submission', element: <FormSubmissionPage /> },
+  { path: '/projects/project-detail/hooks', element: <BasicFormPage /> },
 ]);
 
 export const App = () => {
