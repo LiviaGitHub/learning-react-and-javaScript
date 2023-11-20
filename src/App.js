@@ -7,6 +7,7 @@ import { DestructuringObjectsPage } from './components/projects/project-detail/d
 import { HandleSideEffectsPage } from './components/projects/project-detail/handle-side-effects/index.jsx';
 import { FormSubmissionPage } from './components/projects/project-detail/form-submission/index.jsx';
 import { BasicFormPage } from './components/projects/project-detail/hooks/basic-form.jsx';
+import { MealsPage } from './components/projects/project-detail/meals/index.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './components/error/ErrorBoundary.js';
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
   { path: '/projects/project-detail/handle-side-effects', element: <HandleSideEffectsPage /> },
   { path: '/projects/project-detail/form-submission', element: <FormSubmissionPage /> },
   { path: '/projects/project-detail/hooks', element: <BasicFormPage /> },
+  { path: '/projects/project-detail/meals', element: <MealsPage /> },
 ]);
 
 export const App = () => {

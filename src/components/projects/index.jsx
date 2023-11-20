@@ -39,6 +39,11 @@ export const ProjectsPage = () => {
             Re-Using The Custom Hook
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/meals'>
+            Order meals list
+          </a>
+        </li>
       </ul>
     </div>
   );
