@@ -7,7 +7,10 @@ import { DestructuringObjectsPage } from './components/projects/project-detail/d
 import { HandleSideEffectsPage } from './components/projects/project-detail/handle-side-effects/index.jsx';
 import { FormSubmissionPage } from './components/projects/project-detail/form-submission/index.jsx';
 import { BasicFormPage } from './components/projects/project-detail/hooks/basic-form.jsx';
-import { MealsPage } from './components/projects/project-detail/meals/index.jsx';
+import { RestSpreadOperatorPage } from './components/projects/project-detail/rest-spread-operator/index.jsx';
+import { TemplateLiteralsPage } from './components/projects/project-detail/template-literals/index.jsx';
+import { UsingAndOutputtingDynamicValuesPage } from './components/projects/project-detail/using-and-outputting-dynamic-values';
+import { AlternativePropsSyntaxesPage } from './components/projects/project-detail/alternative-props-syntaxes';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './components/error/ErrorBoundary.js';
@@ -17,12 +20,15 @@ const router = createBrowserRouter([
   { path: '/home', element: <HomePage /> },
   { path: '/contact', element: <ContactPage /> },
   { path: '/projects', element: <ProjectsPage /> },
-  { path: '/projects/project-detail/destructuring-arrays', element: <DestructuringArraysPage /> }, 
+  { path: '/projects/project-detail/destructuring-arrays', element: <DestructuringArraysPage /> },
   { path: '/projects/project-detail/destructuring-objects', element: <DestructuringObjectsPage /> },
   { path: '/projects/project-detail/handle-side-effects', element: <HandleSideEffectsPage /> },
   { path: '/projects/project-detail/form-submission', element: <FormSubmissionPage /> },
   { path: '/projects/project-detail/hooks', element: <BasicFormPage /> },
-  { path: '/projects/project-detail/meals', element: <MealsPage /> },
+  { path: '/projects/project-detail/rest-spread-operator', element: <RestSpreadOperatorPage /> },
+  { path: '/projects/project-detail/template-literals', element: <TemplateLiteralsPage /> },
+  { path: '/projects/project-detail/using-and-outputting-dynamic-values', element: <UsingAndOutputtingDynamicValuesPage /> },
+  { path: '/projects/project-detail/alternative-props-syntaxes', element: <AlternativePropsSyntaxesPage /> },
 ]);
 
 export const App = () => {

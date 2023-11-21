@@ -40,11 +40,27 @@ export const ProjectsPage = () => {
           </a>
         </li>
         <li>
-          <a href='/projects/project-detail/meals'>
-            Order meals list
+          <a href='/projects/project-detail/rest-spread-operator'>
+            Rest/Spread Operator
+          </a>
+        </li>
+        <li>
+          <a href='/projects/project-detail/template-literals'>
+            Template Literals
+          </a>
+        </li>
+        <li>
+          <a href='/projects/project-detail/using-and-outputting-dynamic-values'>
+            Using and Outputting dynamic values
+          </a>
+        </li>
+        <li>
+          <a href='/projects/project-detail/alternative-props-syntaxes'>
+            Alternative Props Syntaxes
           </a>
         </li>
       </ul>
     </div>
   );
 };
+
