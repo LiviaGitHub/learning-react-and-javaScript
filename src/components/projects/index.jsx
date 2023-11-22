@@ -59,6 +59,11 @@ export const ProjectsPage = () => {
             Alternative Props Syntaxes
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/all-about-props'>
+            All about Props
+          </a>
+        </li>
       </ul>
     </div>
   );

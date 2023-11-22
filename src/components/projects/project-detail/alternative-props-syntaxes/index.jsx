@@ -29,14 +29,24 @@ export const AlternativePropsSyntaxesPage = () => {
 
     console.log(CORE_CONCEPTS);
 
+    function CoreConcept(props) {
+        return(
+        <div>
+            <h2>{props.title}</h2>
+            <p>{props.description}</p>
+        </div>
+        );
+    }
+
     return (
         <div className='home-container'>
             <Header />
-            <h1>Using and Outputting dynamic values [Core concept]</h1>
-            <CORE_CONCEPTS
-                title={CORE_CONCEPTS[0]}
-            >
-            </CORE_CONCEPTS>
+            <h1>Alternative Props Syntaxes</h1>
+            <div>
+            {CORE_CONCEPTS.map((concept, index) => (
+                <CoreConcept key={index} title={concept.title} description={concept.description} />
+        ))}
+            </div>
         </div>
     );
 };
