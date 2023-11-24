@@ -12,6 +12,7 @@ import { TemplateLiteralsPage } from './components/projects/project-detail/templ
 import { UsingAndOutputtingDynamicValuesPage } from './components/projects/project-detail/using-and-outputting-dynamic-values';
 import { AlternativePropsSyntaxesPage } from './components/projects/project-detail/alternative-props-syntaxes';
 import { AllAboutPropsPage } from './components/projects/project-detail/all-about-props';
+import { UseStatePage } from './components/projects/project-detail/use-state';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './components/error/ErrorBoundary.js';
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
   { path: '/projects/project-detail/using-and-outputting-dynamic-values', element: <UsingAndOutputtingDynamicValuesPage /> },
   { path: '/projects/project-detail/alternative-props-syntaxes', element: <AlternativePropsSyntaxesPage /> },
   { path: '/projects/project-detail/all-about-props', element: <AllAboutPropsPage /> },
+  { path: '/projects/project-detail/use-state', element: <UseStatePage /> },
 ]);
 
 export const App = () => {

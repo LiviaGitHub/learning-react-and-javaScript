@@ -64,6 +64,11 @@ export const ProjectsPage = () => {
             All about Props
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/use-state'>
+            Use State
+          </a>
+        </li>
       </ul>
     </div>
   );
