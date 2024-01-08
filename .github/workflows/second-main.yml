@@ -1,5 +1,5 @@
 name: Main Workflow # Name of Workflow
-on: 
+on: #[push, workflow_dispatch] It will allows us to trigger this workflow manually. Then remove the push below. 
   push:
     branches:
       - 'main'
