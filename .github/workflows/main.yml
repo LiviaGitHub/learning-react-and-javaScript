@@ -1,10 +1,20 @@
-name: Main Workflow
+name: Main Workflow # Name of Workflow
 on: workflow_dispatch # make sure that we can manually trigger this Workflow
 jobs: # Has to be jobS
   first-job: # Name of the job
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # This work will be performed on a virtual machine with the Ubuntu operating system in the latest version.
     steps: 
       - name: Print green
         run:  echo "Hello world"
       - name: Print good bye
         run:  echo "Done - bye!"
+
+# Running Multi-Line Shell Commands
+# Thus far, you learned how to run simple shell commands like echo "Something" via run: echo "Something".
+# If you need to run multiple shell commands (or multi-line commands, e.g., for readability), 
+# you can easily do so by adding the pipe symbol (|) as a value after the run: key.
+# Like this:
+# run: |
+    # echo "First output"
+    # echo "Second output"
+# This will run both commands in one step.

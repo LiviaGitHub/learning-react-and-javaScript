@@ -1,0 +1,25 @@
+name: Main Workflow # Name of Workflow
+on: 
+  push:
+    branches:
+      - 'main'
+      - 'releases/**' # only push to specific branches should trigger this workflow
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Get code
+        uses:  actions/checkout@v3 # that's the keyword you use when you want to use an action. (@v3 - version)
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+            node-version: 18
+      - name: Install dependencies
+        run: npm ci
+        # run:: Indicates that the next command will be executed in the virtual machine's environment.
+        # npm ci: This is an npm command that installs the project dependencies based on the package-lock.json or npm-shrinkwrap.json file if they exist. 
+        # It's useful to ensure that dependencies are installed consistently across different environments, such as CI/CD environments.
+      - name: Run tests
+        run: npm test  
+          
+
