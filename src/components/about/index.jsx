@@ -1,14 +1,14 @@
 import React from 'react';
-import './contact.css';
+import './about.css';
 import { Header } from '../header';
 
-export const ContactPage = () => {
+export const AboutPage = () => {
 
   return (
     <div>
       <Header />
       <div>
-        <h1>Contact</h1>
+        <h1>About</h1>
       </div>
     </div>
   );

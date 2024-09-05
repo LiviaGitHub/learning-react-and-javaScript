@@ -1,6 +1,7 @@
 import React from 'react';
 import { HomePage } from './components/home/index.jsx';
 import { ContactPage } from './components/contact/index.jsx';
+import { AboutPage } from './components/about/index.jsx';
 import { ProjectsPage } from './components/projects/index.jsx';
 import { DestructuringArraysPage } from './components/projects/project-detail/destructuring-arrays/index.jsx';
 import { DestructuringObjectsPage } from './components/projects/project-detail/destructuring-objects/index.jsx';
@@ -20,6 +21,7 @@ import ErrorBoundary from './components/error/ErrorBoundary.js';
 const router = createBrowserRouter([
   { path: '/', element: <HomePage /> },
   { path: '/home', element: <HomePage /> },
+  { path: '/about', element: <AboutPage /> },
   { path: '/contact', element: <ContactPage /> },
   { path: '/projects', element: <ProjectsPage /> },
   { path: '/projects/project-detail/destructuring-arrays', element: <DestructuringArraysPage /> },
