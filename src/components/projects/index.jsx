@@ -69,6 +69,11 @@ export const ProjectsPage = () => {
             Use State
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/content-editable'>
+          Content Editable
+          </a>
+        </li>
       </ul>
     </div>
   );

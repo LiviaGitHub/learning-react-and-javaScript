@@ -14,6 +14,7 @@ import { UsingAndOutputtingDynamicValuesPage } from './components/projects/proje
 import { AlternativePropsSyntaxesPage } from './components/projects/project-detail/alternative-props-syntaxes';
 import { AllAboutPropsPage } from './components/projects/project-detail/all-about-props';
 import { UseStatePage } from './components/projects/project-detail/use-state';
+import { ContentEditablePage } from './components/projects/project-detail/content-editable';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './components/error/ErrorBoundary.js';
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
   { path: '/projects/project-detail/alternative-props-syntaxes', element: <AlternativePropsSyntaxesPage /> },
   { path: '/projects/project-detail/all-about-props', element: <AllAboutPropsPage /> },
   { path: '/projects/project-detail/use-state', element: <UseStatePage /> },
+  { path: '/projects/project-detail/content-editable', element: <ContentEditablePage /> },
 ]);
 
 export const App = () => {
