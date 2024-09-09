@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import { Button } from '../button';
 import { Header } from '../header';
+import { Footer } from '../footer';
 
 export const HomePage = () => {
   return (
@@ -30,6 +31,7 @@ export const HomePage = () => {
           {/* <img src={linkedinUrl} alt='LinkedIn' />  */}
         </a>
       </div>
+      <Footer />
     </div>
   );
 };

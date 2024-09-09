@@ -1,8 +1,23 @@
+/* justify-content: space-between; Distributes space between elements
+align-items: center; Centers items vertically 
+width: 100%; Ensures that the header occupies 100% of the width */
+
 .header {
   background: #741188;
-  padding: 0.625rem; /* 10px  */
+  padding: 0.625rem;
   overflow: auto; 
+  width: 100%;
 }
+
+/* 
+.header {
+  background: #741188;
+  padding: 0.625rem;
+  display: flex;
+  justify-content:
+  align-items:
+  width: 100%;
+} */
 
 .p,
 .header-link {
