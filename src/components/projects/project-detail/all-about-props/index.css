@@ -1,4 +1,31 @@
 .Card {
-    border: 1px solid black;
-  }
-  
+  border-radius: 25px;
+  background-color: #81ecec;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.name {
+  font-size: 2em;
+  color: #362d35;
+  margin: 10% 20px 0;
+}
+
+.avatar {
+  margin: 30px 20px 0 0;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 120px;
+  height: 120px;
+}
+
+.info {
+  margin: 20px 0;
+  color: #1a7e76;
+}
