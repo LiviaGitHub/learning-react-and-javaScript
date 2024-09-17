@@ -1,7 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 200vh;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   background: white;
   border-radius: 10px;
@@ -9,7 +15,6 @@
 
 .content {
   flex: 1;
-  width: 37.5rem; /* 600px */
   margin: 0 auto;
   text-align: center;
 }
@@ -44,8 +49,3 @@ footer {
   background: #741188;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Lato", sans-serif;
-}

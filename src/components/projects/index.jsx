@@ -74,6 +74,11 @@ export const ProjectsPage = () => {
           Content Editable
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/maping-data'>
+          Maping Data
+          </a>
+        </li>
       </ul>
     </div>
   );
