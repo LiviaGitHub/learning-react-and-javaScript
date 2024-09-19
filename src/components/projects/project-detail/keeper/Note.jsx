@@ -9,3 +9,13 @@ export const Note = ({ title, content }) => {
         </div>
     );
 };
+
+// --> Also correct
+// export const Note = (props) => {
+//     return (
+//         <div className="note">
+//             <h1 className="notetitle">{props.title}</h1>
+//             <p className="paragraph">{props.content}</p>
+//         </div>
+//     );
+// };

@@ -12,6 +12,7 @@ export const Keeper = () => {
             {/* With this, the notes array will be mapped and each 
                 Note will be rendered with its respective key, 
                 title and content, without import errors. */}
+            {/* This is a function, there is an arrow => */}
             {notes.map((note) => (
                 <Note 
                     key={note.key}
