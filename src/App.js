@@ -1,4 +1,6 @@
 import React from 'react';
+import { Header } from './components/header/index.jsx';
+import { Footer } from './components/footer/index.jsx';
 import { HomePage } from './components/home/index.jsx';
 import { ContactPage } from './components/contact/index.jsx';
 import { AboutPage } from './components/about/index.jsx';
@@ -47,9 +49,8 @@ export const App = () => {
   return (
     <ErrorBoundary>
       <RouterProvider router={router}>
-        <div>
-          <HomePage />
-        </div>
+        <Header />
+        <Footer />
       </RouterProvider>
     </ErrorBoundary>
   );

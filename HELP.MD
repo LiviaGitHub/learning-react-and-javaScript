@@ -41,3 +41,8 @@
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map 
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
 
+* Conditional_operator:
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+    - https://legacy.reactjs.org/docs/conditional-rendering.html#inline-if-with-logical--operator
+
+    

@@ -2,49 +2,21 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './index.css';
 
-{
-  /* React Router has the ability to leverage declarative routing and 
-  the better user experience that React Router offers. */
-}
 export const Header = () => {
   return (
     <header>
       <nav className="header">
-        <p className="p"> portfolio </p>
-        <NavLink
-          to="/contact"
-          className="header-link"
-          style={({ isActive }) => ({
-            textDecoration: isActive ? 'underline' : 'none',
-          })}
-        >
+        <p className="p">portfolio</p>
+        <NavLink to="/contact" className="header-link" style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}>
           contact
         </NavLink>
-        <NavLink
-          to="/projects"
-          className="header-link"
-          style={({ isActive }) => ({
-            textDecoration: isActive ? 'underline' : 'none',
-          })}
-        >
+        <NavLink to="/projects" className="header-link" style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}>
           projects
         </NavLink>
-        <NavLink
-          to="/about"
-          className="header-link"
-          style={({ isActive }) => ({
-            textDecoration: isActive ? 'underline' : 'none',
-          })}
-        >
+        <NavLink to="/about" className="header-link" style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}>
           about
         </NavLink>
-        <NavLink
-          to="/home"
-          className="header-link"
-          style={({ isActive }) => ({
-            textDecoration: isActive ? 'underline' : 'none',
-          })}
-        >
+        <NavLink to="/home" className="header-link" style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}>
           home
         </NavLink>
       </nav>
