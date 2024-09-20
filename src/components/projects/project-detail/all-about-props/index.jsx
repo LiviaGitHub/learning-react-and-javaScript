@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from '../../../header';
+import { Header } from '../../../header/index.jsx';
 import { getImageUrls } from './utils.js';
 import './index.css';
 

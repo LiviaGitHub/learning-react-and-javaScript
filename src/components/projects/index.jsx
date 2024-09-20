@@ -84,6 +84,11 @@ export const ProjectsPage = () => {
           Keeper
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/conditional-ternary-operator'>
+          React Conditional Rendering with the Ternary Operator & AND Operator
+          </a>
+        </li>
       </ul>
     </div>
   );

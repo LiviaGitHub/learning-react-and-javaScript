@@ -1,10 +1,10 @@
 import React from 'react';
-import { Header } from '../../../header';
+import { Header } from '../../../header/index.jsx';
 import './index.css';
 import { getEmoji } from './emojipedia.js';
-import { EmojiItem } from './EmojiItem';
+import { EmojiItem } from './EmojiItem.jsx';
 
-export const MapingData = () => {
+export const MapingDataPage = () => {
   return (
     <div>
       <Header />

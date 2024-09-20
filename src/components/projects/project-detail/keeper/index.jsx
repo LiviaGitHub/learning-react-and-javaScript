@@ -1,11 +1,11 @@
 import React from 'react';
-import { Header } from '../../../header';
+import { Header } from '../../../header/index.jsx';
 import { Note } from './Note.jsx';   
-import { notes } from './notes'; 
+import { notes } from './notes.js'; 
 import './index.css';  
 
 
-export const Keeper = () => {
+export const KeeperPage = () => {
     return (
         <div>
             <Header />

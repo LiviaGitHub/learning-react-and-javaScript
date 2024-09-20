@@ -17,8 +17,9 @@ import { AlternativePropsSyntaxesPage } from './components/projects/project-deta
 import { AllAboutPropsPage } from './components/projects/project-detail/all-about-props';
 import { UseStatePage } from './components/projects/project-detail/use-state';
 import { ContentEditablePage } from './components/projects/project-detail/content-editable';
-import { MapingData } from './components/projects/project-detail/maping-data';
-import { Keeper } from './components/projects/project-detail/keeper';
+import { MapingDataPage } from './components/projects/project-detail/maping-data';
+import { KeeperPage } from './components/projects/project-detail/keeper';
+import { ConditionalTernaryOperatorPage } from './components/projects/project-detail/conditional-ternary-operator';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './components/error/ErrorBoundary.js';
@@ -41,8 +42,9 @@ const router = createBrowserRouter([
   { path: '/projects/project-detail/all-about-props', element: <AllAboutPropsPage /> },
   { path: '/projects/project-detail/use-state', element: <UseStatePage /> },
   { path: '/projects/project-detail/content-editable', element: <ContentEditablePage /> },
-  { path: '/projects/project-detail/maping-data', element: <MapingData /> },
-  { path: '/projects/project-detail/keeper', element: <Keeper /> },
+  { path: '/projects/project-detail/maping-data', element: <MapingDataPage /> },
+  { path: '/projects/project-detail/keeper', element: <KeeperPage /> },
+  { path: '/projects/project-detail/conditional-ternary-operator', element: <ConditionalTernaryOperatorPage /> },
 ]);
 
 export const App = () => {
