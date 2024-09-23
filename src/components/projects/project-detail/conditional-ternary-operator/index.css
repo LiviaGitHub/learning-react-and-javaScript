@@ -1,0 +1,65 @@
+.container {
+    margin: 10% auto;
+    padding: 40px 20px; /* Increased padding for more internal space */
+    text-align: center;
+    background: #50a3a2;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 200;
+    width: 80%; /* Set to 80% of the viewport width for better responsiveness */
+    max-width: 500px; /* Maximum width */
+    border-radius: 10px; /* Rounded corners for a smoother visual effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow to highlight the container */
+}
+
+.container h1 {
+    font-size: 36px;
+    font-weight: 300; /* Lighter font weight for the text */
+    margin-bottom: 20px;
+}
+
+form {
+    position: relative;
+}
+
+form input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px; /* Added padding to improve internal spacing */
+    margin: 0 auto 15px auto; /* Increased bottom margin */
+    display: block;
+    width: 100%; /* Used 100% of the available width */
+    max-width: 300px; /* Maximum width for input fields */
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+form input:focus {
+    background-color: rgba(255, 255, 255, 0.3); /* Subtle color change on focus */
+    outline: none; /* Removed the default border */
+}
+
+form button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 100%; /* Button adjusts to the form width */
+    max-width: 300px;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+form button:hover {
+    background-color: #50a3a2;
+    color: white;
+}

@@ -45,4 +45,22 @@
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
     - https://legacy.reactjs.org/docs/conditional-rendering.html#inline-if-with-logical--operator
 
+* Statements vs Expressions: 
+    - Statements perform actions and do not return values ​​directly; you cannot use them within JSX directly.
+    `Example:`
+        <!-- function MyComponent() {
+            return (
+                <h1>
+                {isLoggedIn ? 'Welcome back!' : 'Please log in.'}
+                </h1>
+        );} -->
+    - Expressions return a value and can be used directly within JSX with { }.
+    `Example:`
+        <!-- function MyComponent() {
+            return (
+                <h1>
+                {isLoggedIn ? 'Welcome back!' : 'Please log in.'}
+                </h1>
+        );} -->
+
     
