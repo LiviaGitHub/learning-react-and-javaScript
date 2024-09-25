@@ -5,13 +5,17 @@ import { Form } from './Form';
 
 export const ContactPage = () => {
 
+  var userIsRegistred = false;
+
   return (
     <div>
       <Header />
       <div className='container'>
         <h1>Contact</h1>
         {/* <h1>Contact</h1> */}
-        <Form />
+        <Form 
+          userIsRegistred = {userIsRegistred}
+        />
       </div>
     </div>
   );
