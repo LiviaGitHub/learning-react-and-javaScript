@@ -1,6 +1,5 @@
 .button {
-  border: 0.0625rem solid #741188; /* 1px */
-  background: #741188;
+  background:  #50a3a2;
   color: #fff;
   cursor: pointer;
   text-align: center;
@@ -9,12 +8,13 @@
   font-size: 0.75rem; /* 12px */
   font-weight: normal;
   text-transform: uppercase;
+  border: 0;
 }
 
 .button:hover,
 .button:active {
-  background: #741188;
-  border-color: #741188;
+  background-color: #50a3a2;
+  color: white;
 }
 
 .a {
@@ -26,3 +26,4 @@
 .button:focus {
   outline: none;
 }
+

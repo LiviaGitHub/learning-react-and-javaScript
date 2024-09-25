@@ -3,7 +3,7 @@ align-items: center; Centers items vertically
 width: 100%; Ensures that the header occupies 100% of the width */
 
 .header {
-  background: #741188;
+  background: #50a3a2;
   padding: 0.625rem;
   overflow: auto; 
   width: 100%;

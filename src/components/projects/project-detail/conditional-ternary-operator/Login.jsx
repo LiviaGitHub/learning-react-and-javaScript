@@ -4,7 +4,7 @@ import { Input } from './imput';
 
 export const Login = () => {
   return (
-    <div className="container">
+    <div>
         <h1>Hello</h1>
         <form className="form">
             <Input 
