@@ -20,6 +20,9 @@ import { ContentEditablePage } from './components/projects/project-detail/conten
 import { MapingDataPage } from './components/projects/project-detail/maping-data';
 import { KeeperPage } from './components/projects/project-detail/keeper';
 import { ConditionalTernaryOperatorPage } from './components/projects/project-detail/conditional-ternary-operator';
+import { ButtonPage } from './components/projects/project-detail/button';
+import { UseStateHooksPage } from './components/projects/project-detail/useState-hooks';
+import { UseStateGetTimePage } from './components/projects/project-detail/useState-getTime';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './components/error/ErrorBoundary.js';
@@ -45,6 +48,9 @@ const router = createBrowserRouter([
   { path: '/projects/project-detail/maping-data', element: <MapingDataPage /> },
   { path: '/projects/project-detail/keeper', element: <KeeperPage /> },
   { path: '/projects/project-detail/conditional-ternary-operator', element: <ConditionalTernaryOperatorPage /> },
+  { path: '/projects/project-detail/button', element: <ButtonPage /> },
+  { path: '/projects/project-detail/useState-hooks', element: <UseStateHooksPage /> },
+  { path: '/projects/project-detail/useState-getTime', element: <UseStateGetTimePage /> },
 ]);
 
 export const App = () => {

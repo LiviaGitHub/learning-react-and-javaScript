@@ -89,6 +89,21 @@ export const ProjectsPage = () => {
           React Conditional Rendering with the Ternary Operator & AND Operator
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/button'>
+          Button
+          </a>
+        </li>
+        <li>
+          <a href='/projects/project-detail/useState-hooks'>
+          Use State - Hooks
+          </a>
+        </li>
+        <li>
+          <a href='/projects/project-detail/useState-getTime'>
+          Use state get time
+          </a>
+        </li>
       </ul>
     </div>
   );

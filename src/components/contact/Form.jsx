@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Form = (props) => {
-
   return (
     <form className="form"> 
       <input type="text" placeholder="Message" />

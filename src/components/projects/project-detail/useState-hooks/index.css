@@ -1,0 +1,19 @@
+.container {
+    font: normal 14px "Andale Mono", monospace;
+    color: #fff;
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    background-color: #50a3a2;
+    text-align: center;
+}
+
+.increase-button {
+    display: inline-block;
+    background-color: #f50000;
+    border: 0;
+    width: 100px;
+    font: normal 12px "Andale Mono", monospace;
+    font-weight: bold;
+}
