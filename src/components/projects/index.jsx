@@ -104,6 +104,11 @@ export const ProjectsPage = () => {
           Use state get time
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/object-array-destructuring'>
+          Javascript ES6 Object & Array Destructuring
+          </a>
+        </li>
       </ul>
     </div>
   );
