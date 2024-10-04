@@ -1,14 +1,7 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import { Header } from '../header';
 
 export const ProjectsPage = () => {
-
-  // const projects = [
-  //   { id: 'p1', title: 'Destructuring Arrays', description: 'Destructuring Arrays', link: '/projects/project-detail' },
-  //   { id: 'p2', title: 'Arrays', description: 'Arrays', link: '/projects/project-detail' },
-  //   { id: 'p3', title: 'Project 3', description: 'Project 3 Description', link: '/projects/project-detail' },
-  // ];
 
   return (
     <div className='home-container'>
@@ -107,6 +100,11 @@ export const ProjectsPage = () => {
         <li>
           <a href='/projects/project-detail/object-array-destructuring'>
           Javascript ES6 Object & Array Destructuring
+          </a>
+        </li>
+        <li>
+          <a href='/projects/project-detail/event-attributes'>
+          HTML Event Attributes
           </a>
         </li>
       </ul>

@@ -53,3 +53,7 @@ export const ObjectAndArrayDestructuringPage = () => {
 
 // This makes the code cleaner, easier to read, and less error-prone 
 // because you don't have to repeat the accessor structure.
+
+// Destructuring: Best for small, fixed, known data.
+// Data mapping (.map()): Best for dynamic data, variable-size arrays, 
+// or when you want to minimize repetition and improve scalability.

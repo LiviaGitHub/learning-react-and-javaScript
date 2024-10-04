@@ -4,7 +4,7 @@ body {
 }
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .home-container {
@@ -22,7 +22,7 @@ html {
   text-align: center;
 }
 
-.h1 {
+.home-h1 {
   text-align: center;
   color: #000;
   padding-top: 12.5rem; /* 200px */

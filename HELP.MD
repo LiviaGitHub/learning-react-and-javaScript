@@ -65,4 +65,7 @@
 
 * useSate:
     - https://legacy.reactjs.org/docs/hooks-reference.html#usestate
+
+* HTML Event Attributes
+    - https://www.w3schools.com/tags/ref_eventattributes.asp    
     

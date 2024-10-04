@@ -1,43 +1,30 @@
-/* justify-content: space-between; Distributes space between elements
-align-items: center; Centers items vertically 
-width: 100%; Ensures that the header occupies 100% of the width */
-
 .header {
   background: #50a3a2;
-  padding: 0.625rem;
-  overflow: auto; 
+  padding: 0.925rem;
+  overflow: auto;
   width: 100%;
-}
-
-/* 
-.header {
-  background: #741188;
-  padding: 0.625rem;
-  display: flex;
-  justify-content:
-  align-items:
-  width: 100%;
-} */
-
-.p,
-.header-link {
-  color: #fff;
-  font-size: 0.875rem; /* 14px  */
-  display: inline-block;
-  text-transform: uppercase;
 }
 
 .p {
   text-align: left;
+  display: inline-block;
+  margin-right: 2rem;
+  color: #fff;
+  font-size: 0.975rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .header-link {
-  padding-top: 0.625rem; /* 10px  */
-  padding-right: 0.625rem; /* 10px  */
-  padding-left: 2.5rem; /* 40px  */
-  float: right;
+  padding: 0.625rem 1.5rem;
+  color: #fff;
+  font-size: 0.975rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  float: right;  
+  text-align: center;
+  margin-left: 2rem;
   text-decoration: none;
-  position: relative;
 }
 
 .header-link:hover {

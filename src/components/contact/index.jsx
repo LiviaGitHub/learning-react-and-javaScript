@@ -11,7 +11,7 @@ export const ContactPage = () => {
     <div>
       <Header />
       <div className='contact-container'>
-        <h1>Contact</h1>
+        <h1 className='contact-h1'>Contact</h1>
         {/* <h1>Contact</h1> */}
         <Form 
           userIsRegistred = {userIsRegistred}

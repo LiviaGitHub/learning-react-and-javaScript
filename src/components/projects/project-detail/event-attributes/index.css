@@ -1,0 +1,72 @@
+.event-container {
+    background-color: #374954;
+    max-width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 5% auto;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.event-h1 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    width: 250px;
+    border-radius: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0 auto 15px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgba(252, 252, 252, 0.3);
+}
+
+.button {
+    background-color: #50a3a2;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    max-width: 100%;
+    width: 150px;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+    .event-container {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .event-container h1 {
+        font-size: 28px;
+    }
+
+    input,
+    button {
+        width: 100%;
+    }
+}
