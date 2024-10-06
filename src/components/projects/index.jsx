@@ -107,6 +107,11 @@ export const ProjectsPage = () => {
           HTML Event Attributes
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/form-event'>
+          React forms
+          </a>
+        </li>
       </ul>
     </div>
   );
