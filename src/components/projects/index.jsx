@@ -112,6 +112,11 @@ export const ProjectsPage = () => {
           React forms
           </a>
         </li>
+        <li>
+          <a href='/projects/project-detail/changing-state'>
+          Changing State
+          </a>
+        </li>
       </ul>
     </div>
   );

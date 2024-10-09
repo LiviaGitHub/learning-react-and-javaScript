@@ -26,6 +26,7 @@ import { UseStateGetTimePage } from './components/projects/project-detail/useSta
 import { ObjectAndArrayDestructuringPage } from './components/projects/project-detail/object-array-destructuring';
 import { EventAttributesPage } from './components/projects/project-detail/event-attributes';
 import { FormEventPage } from './components/projects/project-detail/form-event';
+import { ChangingStatetPage } from './components/projects/project-detail/changing-state';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './components/error/ErrorBoundary.js';
@@ -57,6 +58,7 @@ const router = createBrowserRouter([
   { path: '/projects/project-detail/object-array-destructuring', element: <ObjectAndArrayDestructuringPage /> },
   { path: '/projects/project-detail/event-attributes', element: <EventAttributesPage /> },
   { path: '/projects/project-detail/form-event', element: <FormEventPage /> },
+  { path: '/projects/project-detail/changing-state', element: <ChangingStatetPage /> },
 ]);
 
 export const App = () => {

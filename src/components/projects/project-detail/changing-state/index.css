@@ -4,7 +4,7 @@
     height: auto;
     box-sizing: border-box;
     margin: 5% auto;
-    padding: 15px 0;
+    padding: 20px 0;
     text-align: center;
     border-radius: 8px;
 }
@@ -34,11 +34,6 @@ input {
 
 input:focus {
     outline: none;
-}
-
-p {
-    color: #ffffff;
-    font-size: 12px;
 }
 
 .button {
