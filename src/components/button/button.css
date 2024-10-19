@@ -1,28 +1,27 @@
 .button {
-  background:  #50a3a2;
-  color: #fff;
-  cursor: pointer;
-  text-align: center;
-  width: 7.25rem; /* 100px */
-  height: 2.5625rem; /* 25px */
-  font-size: 0.75rem; /* 12px */
-  font-weight: 600;
-  text-transform: uppercase;
-  border: 0;
-}
-
-.button:hover,
-.button:active {
   background-color: #50a3a2;
   color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
 }
 
-.a {
-  text-decoration: none;
-  color: #fff;
+.button:hover {
+  background-color: #3a8986;
+}
+
+.button:active {
+  background-color: #287c79; 
 }
 
 .button:focus {
   outline: none;
 }
 
+/* button -> background-color: blue; --> Styles only the <button> elements 
+
+.button -> background-color: green; /* Styles any element with the "button" class */

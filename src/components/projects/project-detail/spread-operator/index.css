@@ -55,23 +55,6 @@
     margin-bottom: 20px;
   }
   
-  button {
-    padding: 0;
-    border: none;
-    font-family: "Architects Daughter", cursive;
-    text-decoration: none;
-    padding-bottom: 3px;
-    border-radius: 5px;
-    background-color: #ffeaa7;
-  }
-  button span {
-    background: #50a3a2;
-    display: block;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    border: 2px solid hsl(198, 1%, 29%);
-  }
-  
   li {
     text-align: left;
     position: relative;

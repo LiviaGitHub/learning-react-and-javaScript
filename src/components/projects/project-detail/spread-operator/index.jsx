@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Header } from '../../../header';
+import { Button } from '../../../button';
 import './index.css';
 
 export const SpreadOperatorPage = () => {
@@ -21,18 +22,6 @@ export const SpreadOperatorPage = () => {
     );
   }
 
-//   function handleChange(event) {
-//     const { name, value } = event.target;
-
-//     setContact(prevValue => {
-//       return {
-//         ...prevValue,
-//         [name]: value
-//       };
-//     });
-//   }
-
-
   return (
     <>
     <Header />
@@ -42,9 +31,7 @@ export const SpreadOperatorPage = () => {
       </div>
       <div className="form">
         <input onChange={handleChange} type="text" value={inputText} />
-        <button onClick={addItem}>
-          <span>Add</span>
-        </button>
+        <Button onClick={addItem}>Add</Button>
       </div>
       <div>
         <ul>
