@@ -28,6 +28,7 @@ import { EventAttributesPage } from './components/projects/project-detail/event-
 import { FormEventPage } from './components/projects/project-detail/form-event';
 import { ChangingStatetPage } from './components/projects/project-detail/changing-state';
 import { SpreadOperatorPage } from './components/projects/project-detail/spread-operator';
+import { OperatorPracticePage } from './components/projects/project-detail/operator-practice';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorBoundary from './components/error/ErrorBoundary.js';
@@ -61,6 +62,7 @@ const router = createBrowserRouter([
   { path: '/projects/project-detail/form-event', element: <FormEventPage /> },
   { path: '/projects/project-detail/changing-state', element: <ChangingStatetPage /> },
   { path: '/projects/project-detail/spread-operator', element: <SpreadOperatorPage /> },
+  { path: '/projects/project-detail/operator-practice', element: <OperatorPracticePage /> },
 ]);
 
 export const App = () => {

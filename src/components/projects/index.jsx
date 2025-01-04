@@ -102,10 +102,13 @@ export const ProjectsPage = () => {
           <a href="/projects/project-detail/form-event">React forms</a>
         </li>
         <li>
-          <a href="/projects/project-detail/changing-state">Changing State</a>
+          <a href="/projects/project-detail/changing-state">Changing state</a>
         </li>
         <li>
-          <a href="/projects/project-detail/spread-operator">Spread Operator</a>
+          <a href="/projects/project-detail/spread-operator">Spread operator</a>
+        </li>
+        <li>
+          <a href="/projects/project-detail/operator-practice">Operator practice</a>
         </li>
       </ul>
     </div>
